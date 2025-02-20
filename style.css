@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+body{
+    background-color:  rgb(77, 71, 71);
+}
+*{
+    margin: 20;
+    padding: 20;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    margin-top: -5px;
+}
+.tête {
+    position: fixed;
+    gap: 650px;
+    padding: 0 7px;
+}
+
+header .logo {
+    font-size: 20px;
+    color: white;
+}
+header .menu a {
+    font-size: 14px;
+    color: white;
+    position: relative;
+    margin: 10px;
+    text-decoration: none;
+}
+header .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 200px;
+}
+
+/* home */
+
+.corps {
+    size: cover;
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color:  rgb(77, 71, 71);
+}
+.corps .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+.corps .text h1 {
+    font-size: 60px;
+    color: white;
+}
+.corps .text h3 {
+    margin-top: -9%;
+    color: blue;
+}
+.corps .text p {
+    margin-top: -2%;
+    color: white;
+    font-size: 10px;
+}
+.corps .image {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-bottom: 80px;
+    height: 90%;
+}
+
+/* end */
+
+section {
+    background-color: black;
+    border-radius: 20px;
+}
+.first .tex {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 450px;
+    margin-bottom: -70px;
+    gap: 100px;
+    color: white;
+    padding: 25px;
+}
+.seconde {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 250px;
+    padding: 25px;
+}
+button {
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px;
+    border-color: blue;
+    background-color: blue;
+    height: 30px;
+    width: 150px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    padding: 20px;
+}
+.secdeu .tableau {
+    margin-top: 30px;
+}
+@media screen and (max-width ) {
+    
+}
